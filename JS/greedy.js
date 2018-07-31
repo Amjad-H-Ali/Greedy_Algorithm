@@ -6,13 +6,13 @@ do {
 	change = prompt('Change owed:');
 }
 
-while (change < 0 || isNaN(Number(change)) || isNaN(parseInt(change)));
+while (change < 0 || isNaN(Number(change)) || ( isNaN(parseInt(change)) && change <= 0) );
 
 const greedy = (changeOwed) => {
 
 	let cents = Math.round(changeOwed * 100);
 
-	console.log(cents);
+	return parseInt(cents/25) + parseInt((cents % 25)/10) + parseInt(((cents % 25)%10)/5) + parseInt(((cents % 25)%10)%5);
 };
 
-greedy(change);
+console.log(greedy(change));
