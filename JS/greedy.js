@@ -16,3 +16,23 @@ const greedy = (changeOwed) => {
 };
 
 console.log(greedy(change));
+
+// Try These
+
+// 0.41 => 4
+
+// 0.01 => 1
+
+// 0.15 => 2
+
+// 1.6 => 7
+
+// 23 => 92
+
+// 4.2 => 18
+
+// -.1
+
+// "foo"
+
+// ""
