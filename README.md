@@ -12,7 +12,7 @@ Change owed: 0.41
 
 ##### Background
 
-![Dispenser](../img/greedy.jpeg)
+![Dispenser](/img/greedy.jpeg)
 
 ###### When using a device like this, odds are you want to minimize the number of coins you’re dispensing for each customer, lest you have to press levers more times than are necessary. Fortunately, computer science has given cashiers everywhere ways to minimize numbers of coins due: greedy algorithms.
 
